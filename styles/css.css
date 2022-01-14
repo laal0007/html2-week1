@@ -53,4 +53,40 @@ table {
 
 html{
     background-color:aquamarine;
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    line-height:1.6;
+    width:800px;
+    /* two values on margin meant top-bottom, left-right
+    the space between the two values means you are applying all the values */
+    margin:0 auto; /*this will centre the site in the browser window*/
+    background-color:lightgoldenrodyellow;
+}
+
+#reallybig{
+    font-size:36px;
+}
+
+.larger{
+    font-size:24px;
+}
+
+/* target only the paragraphs that are inside the main tag */
+main p{
+    color:red;
+}
+
+/* CSS box model includes margin, border, and padding: 
+- margin is outside the element and pushes other elements away
+- padding is inside the element and pushes content away form the element's edge
+- border is in between the two; needs a size, style, and colour */
+
+main{
+    background-color:lavender;
+    margin:10px; 
+    padding:15px;
+    border: 2px solid black;
 }
